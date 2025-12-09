@@ -19,3 +19,4 @@ set_target_properties(utils PROPERTIES
 )
 
 add_subdirectory(examples/ch03/01_first_kernel)
+add_subdirectory(examples/ch03/02_dev_info)
