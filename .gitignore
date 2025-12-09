@@ -1,0 +1,59 @@
+# Build / Generate Artifacts
+build/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+Makefile
+*.ninja
+*.ninja_deps
+*.ninja_log
+*.vcxproj
+*.vcxproj.filters
+*.sln
+
+# Executables & Objects
+*.o
+*.obj
+*.out
+*.exe
+*.a
+*.so
+*.dll
+
+# CUDA Artifacts
+*.ptx
+*.cubin
+*.fatbin
+*.nvprof
+*.nvvp
+*.nsys-rep
+*.nsys-export
+
+# VSCode / IDE
+.vscode/
+.vscode/*
+*.code-workspace
+.idea/
+*.swp
+
+# OS Junk
+.DS_Store
+Thumbs.db
+
+# Output / Results (Images, Videos, Logs)
+outputs/
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tga
+*.gif
+*.mp4
+*.avi
+*.log
+
+# Temporary / Cache
+*.tmp
+*.cache
+*.bak
+*.old
