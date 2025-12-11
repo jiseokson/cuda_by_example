@@ -8,6 +8,7 @@ set(CMAKE_CUDA_ARCHITECTURES 86)
 
 add_library(utils STATIC
     src/utils/cuda_check.cu
+    src/utils/image.cpp
 )
 
 target_include_directories(utils PUBLIC
@@ -22,3 +23,7 @@ add_subdirectory(examples/ch03/01_first_kernel)
 add_subdirectory(examples/ch03/02_dev_info)
 add_subdirectory(examples/ch03/03_choose_dev)
 add_subdirectory(examples/ch04/01_add)
+add_subdirectory(examples/ch04/02_cpu_julia_set)
+add_subdirectory(examples/ch04/03_gpu_julia_set)
+add_subdirectory(examples/ch05/01_add_threads)
+add_subdirectory(examples/ch05/02_add_grid_stride)
