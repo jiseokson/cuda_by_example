@@ -11,7 +11,7 @@
 </div>
 
 <div align="center">
-    <img src="https://github.com/user-attachments/assets/05994d59-cd67-4913-89c9-2ec8fcaed5a4" alt="Ripple" width="35%">
-    <img src="https://github.com/user-attachments/assets/88976f1c-1183-45f6-b3b0-6f449789aa79" alt="Ripple" width="35%">
+    <img src="https://github.com/user-attachments/assets/e5d154e4-800f-40c0-b662-08f722c34cdc" alt="Ripple" width="35%">
+    <img src="https://github.com/user-attachments/assets/e8fff272-0f9e-4a3d-8a3e-a7d22d193907" alt="Ripple" width="35%">
     <p>Fig.3 - Shared-memory image tiling without (left) and with (right) thread synchronization</p>
 </div>
