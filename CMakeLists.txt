@@ -4,7 +4,7 @@ project(cuda_by_example LANGUAGES CXX CUDA)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CUDA_STANDARD 17)
 
-set(CMAKE_CUDA_ARCHITECTURES 86)
+set(CMAKE_CUDA_ARCHITECTURES native)
 
 add_library(utils STATIC
     src/utils/cuda_check.cu
